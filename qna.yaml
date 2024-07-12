@@ -16,13 +16,14 @@ seed_examples:
   - question: What is ilab?
     answer: |
       ilab is a Command-Line Interface (CLI) tool that allows you to perfirm the following actions:
-      1) Download a pre-trained Large Language Model (LLM), 
+      1) Download a pre-trained Large Language Model (LLM),
       2) Chat with the LLM.
   - question: What is InstructLab Taxonomy?
     answer: |
-      InstructLab Taxonomy is a tree that allows you to create models tuned with your data (enhanced via synthetic data generation),
+      InstructLab Taxonomy is a tree that allows you to create models tuned with
+      your data (enhanced via synthetic data generation),
       using Large-Scale Alignment for ChatBots (LAB) method.
 document:
   repo: https://github.com/actisdato/instructlab
-  commit: 
+  commit:
   patterns:
