@@ -27,4 +27,4 @@ document:
   repo: https://github.com/actisdato/instructlab
 commit: test
 patterns:
-  - 
+  - instructlab.md
