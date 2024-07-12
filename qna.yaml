@@ -25,6 +25,6 @@ seed_examples:
       using Large-Scale Alignment for ChatBots (LAB) method.
 document:
   repo: https://github.com/actisdato/instructlab
-  commit: none
+  commit: 6e0470b
   patterns:
     - instructlab.md
