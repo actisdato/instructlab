@@ -2,7 +2,12 @@ Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against 
 
 
 
+
+
 (venv) ead@emac instructlab % ilab model chat -m models/merlinite-7b-lab-Q4_K_M.gguf
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────── system ─────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Welcome to InstructLab Chat w/ MODELS/MERLINITE-7B-LAB-Q4_K_M.GGUF (type /h for help)                                                                                                                                   │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 >>> when was instructlab released?                                                                                                                                                                             [S][default]
 ╭────────────────────────────────────────────────────────────────────────────────────────── models/merlinite-7b-lab-Q4_K_M.gguf ──────────────────────────────────────────────────────────────────────────────────────────╮
 │ The InstructLab platform, which includes the learning management system (LMS), was launched in 2015 by Instruct, a Belgian company specialized in delivering online education solutions to universities and colleges.   │
@@ -14,6 +19,9 @@ Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against 
 
 
 (venv) ead@emac instructlab % ilab model chat -m models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────── system ─────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Welcome to InstructLab Chat w/ MODELS/INSTRUCTLAB-MERLINITE-7B-LAB-Q4_K_M_CATA.GGUF (type /h for help)                                                                                                                  │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 >>> when was instructlab released?                                                                                                                                                                             [S][default]
 ╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
 │ InstructLab is a versatile and powerful tool for synthetic data generation, and it was first released on September 6, 2023. This release allows users to create synthetic training data that is more representative of  │
@@ -22,10 +30,9 @@ Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against 
 >>> exit                                                                                                                                                                                                       [S][default]
 
 
-(venv) ead@emac instructlab % ilab model chat -m models/merlinite-7b-lab-Q4_K_M.gguf
-╭──────────────────────────────────────────────────────────────────────────────────────────────────────── system ─────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ Welcome to InstructLab Chat w/ MODELS/MERLINITE-7B-LAB-Q4_K_M.GGUF (type /h for help)                                                                                                                                   │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+
 >>> what is ilab?                                                                                                                                                                                              [S][default]
 ╭────────────────────────────────────────────────────────────────────────────────────────── models/merlinite-7b-lab-Q4_K_M.gguf ──────────────────────────────────────────────────────────────────────────────────────────╮
 │ ILAB, also known as the Information Laboratory of the Kurchatov Institute (Информационная лаборатория Курчатова), is a leading research center in Russia that focuses on theoretical physics, computational             │
@@ -47,10 +54,6 @@ Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against 
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 10.680 seconds ─╯
 
 
-(venv) ead@emac instructlab % ilab model chat -m models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf
-╭──────────────────────────────────────────────────────────────────────────────────────────────────────── system ─────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ Welcome to InstructLab Chat w/ MODELS/INSTRUCTLAB-MERLINITE-7B-LAB-Q4_K_M_CATA.GGUF (type /h for help)                                                                                                                  │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 >>> what is ilab?                                                                                                                                                                                              [S][default]
 ╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
 │ Ilab is a versatile and powerful Command-Line Interface (CLI) tool that allows users to perform various tasks related to pre-trained Large Language Models (LLMs). Ilab offers a wide range of features, including:     │
@@ -67,7 +70,9 @@ Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against 
 ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 8.823 seconds ─╯
 
 
-(venv) ead@emac instructlab % ilab model chat -m models/merlinite-7b-lab-Q4_K_M.gguf
+
+
+
 >>> how can I train an LLM using ilab?                                                                                                                                                                         [S][default]
 ╭────────────────────────────────────────────────────────────────────────────────────────── models/merlinite-7b-lab-Q4_K_M.gguf ──────────────────────────────────────────────────────────────────────────────────────────╮
 │ To train a Language Model (LLM) like me using resources from ILAB, follow these steps:                                                                                                                                  │
@@ -102,7 +107,6 @@ Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against 
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 18.646 seconds ─╯
 
 
-(venv) ead@emac instructlab % ilab model chat -m models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf
 >>> how can I train an LLM using ilab?                                                                                                                                                                         [S][default]
 ╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
 │ To train an LLM using Ilab, you need to follow these steps:                                                                                                                                                             │
@@ -119,7 +123,9 @@ Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against 
 ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 7.446 seconds ─╯
 
 
-(venv) ead@emac instructlab % ilab model chat -m models/merlinite-7b-lab-Q4_K_M.gguf
+
+
+
 >>> how does instructlab generate new synthetic data?                                                                                                                                                          [S][default]
 ╭────────────────────────────────────────────────────────────────────────────────────────── models/merlinite-7b-lab-Q4_K_M.gguf ──────────────────────────────────────────────────────────────────────────────────────────╮
 │ InstructLab is a deep learning platform designed for educational research. It has the capability to generate new synthetic data using techniques like generative adversarial networks (GANs) or other related methods.  │
@@ -149,7 +155,6 @@ Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against 
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 16.069 seconds ─╯
 
 
-(venv) ead@emac instructlab % ilab model chat -m models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf
 >>> how does instructlab generate new synthetic data?                                                                                                                                                          [S][default]
 ╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
 │ InstructLab generates new synthetic data by first creating a counterfactual version of the original data using its built-in alignment model. The counterfactual data is then used as input to the companion taxonomy    │
@@ -158,7 +163,9 @@ Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against 
 ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 4.086 seconds ─╯
 
 
-(venv) ead@emac instructlab % ilab model chat -m models/merlinite-7b-lab-Q4_K_M.gguf
+
+
+
 >>> how is instructlab different to other tools?                                                                                                                                                               [S][default]
 ╭────────────────────────────────────────────────────────────────────────────────────────── models/merlinite-7b-lab-Q4_K_M.gguf ──────────────────────────────────────────────────────────────────────────────────────────╮
 │ InstructLab is a unique deep learning platform designed specifically for educational research and development. Here are some of the ways it stands out from other tools:                                                │
@@ -183,7 +190,6 @@ Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against 
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 16.231 seconds ─╯
 
 
-(venv) ead@emac instructlab % ilab model chat -m models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf
 >>> how is instructlab different to other tools?                                                                                                                                                               [S][default]
 
 ╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
@@ -193,7 +199,9 @@ Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against 
 ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 4.227 seconds ─╯
 
 
-(venv) ead@emac instructlab % ilab model chat -m models/merlinite-7b-lab-Q4_K_M.gguf
+
+
+
 >>> how do I install instructlab?                                                                                                                                                                              [S][default]
 ╭────────────────────────────────────────────────────────────────────────────────────────── models/merlinite-7b-lab-Q4_K_M.gguf ──────────────────────────────────────────────────────────────────────────────────────────╮
 │ To install InstructLab, follow these steps:                                                                                                                                                                             │
@@ -222,7 +230,6 @@ Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against 
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 14.618 seconds ─╯
 
 
-(venv) ead@emac instructlab % ilab model chat -m models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf
 >>> how do I install instructlab?                                                                                                                                                                              [S][default]
 ╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
 │ To install InstructLab, you need to follow these steps:                                                                                                                                                                 │
