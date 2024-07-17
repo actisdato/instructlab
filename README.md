@@ -10,3 +10,10 @@ The question/answer we wanted to improve was specifically "when was instructlab 
 Inside our repository (https://github.com/actisdato/instructlab) there is a file that contains our results. Each question was asked both to the original model, and to the new model. The file can be found here: https://github.com/actisdato/instructlab/blob/main/chat-2024_07_16T---final%20result.txt
 
 Regarding the taxonomy, the questions/answers pairs were added to this folder: /taxonomy/knowledge/STEM/Technology
+
+
+
+--
+
+Deliverables folder: https://github.com/actisdato/instructlab
+Link to Taxonomy: https://github.com/instructlab/taxonomy/tree/main/knowledge/STEM/Technology
