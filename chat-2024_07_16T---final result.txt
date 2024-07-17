@@ -1,5 +1,25 @@
-Questions against original merlinite-7b model:
+Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against the new re-trained model instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf
 
+
+
+(venv) ead@emac instructlab % ilab model chat -m models/merlinite-7b-lab-Q4_K_M.gguf
+>>> when was instructlab released?                                                                                                                                                                             [S][default]
+╭────────────────────────────────────────────────────────────────────────────────────────── models/merlinite-7b-lab-Q4_K_M.gguf ──────────────────────────────────────────────────────────────────────────────────────────╮
+│ The InstructLab platform, which includes the learning management system (LMS), was launched in 2015 by Instruct, a Belgian company specialized in delivering online education solutions to universities and colleges.   │
+│ This LMS is designed to cater to higher education institutions' needs, offering various features such as automated course administration, student progress tracking, and social learning tools.                         │
+│                                                                                                                                                                                                                         │
+│ If you have any questions related to e-learning or InstructLab, feel free to ask! I will do my best to provide helpful and accurate information.                                                                        │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 4.348 seconds ─╯
+>>> exit                                                                                                                                                                                                       [S][default]
+
+
+(venv) ead@emac instructlab % ilab model chat -m models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf
+>>> when was instructlab released?                                                                                                                                                                             [S][default]
+╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
+│ InstructLab is a versatile and powerful tool for synthetic data generation, and it was first released on September 6, 2023. This release allows users to create synthetic training data that is more representative of  │
+│ the population than the original data.                                                                                                                                                                                  │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 2.176 seconds ─╯
+>>> exit                                                                                                                                                                                                       [S][default]
 
 
 (venv) ead@emac instructlab % ilab model chat -m models/merlinite-7b-lab-Q4_K_M.gguf
@@ -25,6 +45,29 @@ Questions against original merlinite-7b model:
 │ By focusing on these areas, ILAB aims to contribute significantly to Russia's science and technology landscape, driving progress in theoretical physics and computational mathematics while also promoting              │
 │ interdisciplinary collaboration.                                                                                                                                                                                        │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 10.680 seconds ─╯
+
+
+(venv) ead@emac instructlab % ilab model chat -m models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────── system ─────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Welcome to InstructLab Chat w/ MODELS/INSTRUCTLAB-MERLINITE-7B-LAB-Q4_K_M_CATA.GGUF (type /h for help)                                                                                                                  │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+>>> what is ilab?                                                                                                                                                                                              [S][default]
+╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
+│ Ilab is a versatile and powerful Command-Line Interface (CLI) tool that allows users to perform various tasks related to pre-trained Large Language Models (LLMs). Ilab offers a wide range of features, including:     │
+│                                                                                                                                                                                                                         │
+│ 1. Downloading pre-trained LLMs from various sources, such as Hugging Face.                                                                                                                                             │
+│ 2. Generating synthetic training data based on the changes in your local taxonomy repository.                                                                                                                           │
+│ 3. Adding new knowledge and skills to the pre-trained LLMs by adding information to the companion taxonomy repository.                                                                                                  │
+│ 4. Retraining the LLM with the newly generated training data.                                                                                                                                                           │
+│ 5. Chatting with the re-trained LLM to view the results of the conversation.                                                                                                                                            │
+│ 6. Saving the conversation for future reference and analysis.                                                                                                                                                           │
+│                                                                                                                                                                                                                         │
+│ Ilab is designed to be an easy-to-use tool for users who want to experiment with pre-trained LLMs and their capabilities. By using Ilab, users can easily interact with the models, understand their behavior, and      │
+│ fine-tune them for specific use cases.                                                                                                                                                                                  │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 8.823 seconds ─╯
+
+
+(venv) ead@emac instructlab % ilab model chat -m models/merlinite-7b-lab-Q4_K_M.gguf
 >>> how can I train an LLM using ilab?                                                                                                                                                                         [S][default]
 ╭────────────────────────────────────────────────────────────────────────────────────────── models/merlinite-7b-lab-Q4_K_M.gguf ──────────────────────────────────────────────────────────────────────────────────────────╮
 │ To train a Language Model (LLM) like me using resources from ILAB, follow these steps:                                                                                                                                  │
@@ -57,6 +100,26 @@ Questions against original merlinite-7b model:
 │ By following these steps, you can leverage ILAB's resources to train your LLM effectively. Remember that the success of your model depends on the quality of your dataset, the design of your architecture, and the     │
 │ optimization of your training process.                                                                                                                                                                                  │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 18.646 seconds ─╯
+
+
+(venv) ead@emac instructlab % ilab model chat -m models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf
+>>> how can I train an LLM using ilab?                                                                                                                                                                         [S][default]
+╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
+│ To train an LLM using Ilab, you need to follow these steps:                                                                                                                                                             │
+│                                                                                                                                                                                                                         │
+│ 1. Download a pre-trained LLM from Hugging Face or any other source supported by Ilab.                                                                                                                                  │
+│ 2. Generate synthetic training data based on the changes in your local taxonomy repository.                                                                                                                             │
+│ 3. Add new knowledge and skills to the pre-trained LLM by adding information to the companion taxonomy repository.                                                                                                      │
+│ 4. Retrain the LLM with the newly generated training data.                                                                                                                                                              │
+│ 5. Chatting with the re-trained LLM to view the results of the conversation.                                                                                                                                            │
+│ 6. Save the conversation for future reference and analysis.                                                                                                                                                             │
+│                                                                                                                                                                                                                         │
+│ These steps provide a simple yet effective way to train an LLM using Ilab. By following these instructions, users can ensure that they are optimizing their training process and getting the most out of their          │
+│ pre-trained models.                                                                                                                                                                                                     │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 7.446 seconds ─╯
+
+
+(venv) ead@emac instructlab % ilab model chat -m models/merlinite-7b-lab-Q4_K_M.gguf
 >>> how does instructlab generate new synthetic data?                                                                                                                                                          [S][default]
 ╭────────────────────────────────────────────────────────────────────────────────────────── models/merlinite-7b-lab-Q4_K_M.gguf ──────────────────────────────────────────────────────────────────────────────────────────╮
 │ InstructLab is a deep learning platform designed for educational research. It has the capability to generate new synthetic data using techniques like generative adversarial networks (GANs) or other related methods.  │
@@ -84,6 +147,18 @@ Questions against original merlinite-7b model:
 │                                                                                                                                                                                                                         │
 │ By following these steps, InstructLab can generate new synthetic data effectively, which can be used in various applications like content generation, educational research, or even language modeling.                  │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 16.069 seconds ─╯
+
+
+(venv) ead@emac instructlab % ilab model chat -m models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf
+>>> how does instructlab generate new synthetic data?                                                                                                                                                          [S][default]
+╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
+│ InstructLab generates new synthetic data by first creating a counterfactual version of the original data using its built-in alignment model. The counterfactual data is then used as input to the companion taxonomy    │
+│ repository, which contains the additional knowledge and skills that you want to teach the LLM. After generating the new training data, InstructLab can retrain the LLM with the newly generated data, allowing it to    │
+│ better understand and respond to the changes in the local taxonomy repository.                                                                                                                                          │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 4.086 seconds ─╯
+
+
+(venv) ead@emac instructlab % ilab model chat -m models/merlinite-7b-lab-Q4_K_M.gguf
 >>> how is instructlab different to other tools?                                                                                                                                                               [S][default]
 ╭────────────────────────────────────────────────────────────────────────────────────────── models/merlinite-7b-lab-Q4_K_M.gguf ──────────────────────────────────────────────────────────────────────────────────────────╮
 │ InstructLab is a unique deep learning platform designed specifically for educational research and development. Here are some of the ways it stands out from other tools:                                                │
@@ -106,6 +181,19 @@ Questions against original merlinite-7b model:
 │                                                                                                                                                                                                                         │
 │ By offering these unique features and capabilities, InstructLab distinguishes itself from other general-purpose deep learning platforms, making it a valuable resource for educational research and development.        │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 16.231 seconds ─╯
+
+
+(venv) ead@emac instructlab % ilab model chat -m models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf
+>>> how is instructlab different to other tools?                                                                                                                                                               [S][default]
+
+╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
+│ InstructLab is different from other tools because it provides a unique and easy-to-use interface for training and fine-tuning pre-trained LLMs. Unlike traditional tools that require users to have extensive knowledge │
+│ of the underlying algorithms and systems, InstructLab allows users to interact with LLMs at a higher level. This makes it an ideal tool for users who want to experiment with different models and understand their     │
+│ capabilities without having to delve deep into the intricacies of the training process.                                                                                                                                 │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 4.227 seconds ─╯
+
+
+(venv) ead@emac instructlab % ilab model chat -m models/merlinite-7b-lab-Q4_K_M.gguf
 >>> how do I install instructlab?                                                                                                                                                                              [S][default]
 ╭────────────────────────────────────────────────────────────────────────────────────────── models/merlinite-7b-lab-Q4_K_M.gguf ──────────────────────────────────────────────────────────────────────────────────────────╮
 │ To install InstructLab, follow these steps:                                                                                                                                                                             │
@@ -132,70 +220,9 @@ Questions against original merlinite-7b model:
 │ By following these steps, you can successfully install and start using InstructLab for your educational research needs. Remember that the installation process may vary depending on your operating system and version  │
 │ of InstructLab.                                                                                                                                                                                                         │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 14.618 seconds ─╯
->>> when was instructlab released?                                                                                                                                                                             [S][default]
-╭────────────────────────────────────────────────────────────────────────────────────────── models/merlinite-7b-lab-Q4_K_M.gguf ──────────────────────────────────────────────────────────────────────────────────────────╮
-│ The InstructLab platform, which includes the learning management system (LMS), was launched in 2015 by Instruct, a Belgian company specialized in delivering online education solutions to universities and colleges.   │
-│ This LMS is designed to cater to higher education institutions' needs, offering various features such as automated course administration, student progress tracking, and social learning tools.                         │
-│                                                                                                                                                                                                                         │
-│ If you have any questions related to e-learning or InstructLab, feel free to ask! I will do my best to provide helpful and accurate information.                                                                        │
-╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 4.348 seconds ─╯
->>> exit                                                                                                                                                                                                       [S][default]
-
-
-
--------
-
-
-
-Questions against new merlinite-7b retrained model:
-
 
 
 (venv) ead@emac instructlab % ilab model chat -m models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf
-╭──────────────────────────────────────────────────────────────────────────────────────────────────────── system ─────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ Welcome to InstructLab Chat w/ MODELS/INSTRUCTLAB-MERLINITE-7B-LAB-Q4_K_M_CATA.GGUF (type /h for help)                                                                                                                  │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
->>> what is ilab?                                                                                                                                                                                              [S][default]
-╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
-│ Ilab is a versatile and powerful Command-Line Interface (CLI) tool that allows users to perform various tasks related to pre-trained Large Language Models (LLMs). Ilab offers a wide range of features, including:     │
-│                                                                                                                                                                                                                         │
-│ 1. Downloading pre-trained LLMs from various sources, such as Hugging Face.                                                                                                                                             │
-│ 2. Generating synthetic training data based on the changes in your local taxonomy repository.                                                                                                                           │
-│ 3. Adding new knowledge and skills to the pre-trained LLMs by adding information to the companion taxonomy repository.                                                                                                  │
-│ 4. Retraining the LLM with the newly generated training data.                                                                                                                                                           │
-│ 5. Chatting with the re-trained LLM to view the results of the conversation.                                                                                                                                            │
-│ 6. Saving the conversation for future reference and analysis.                                                                                                                                                           │
-│                                                                                                                                                                                                                         │
-│ Ilab is designed to be an easy-to-use tool for users who want to experiment with pre-trained LLMs and their capabilities. By using Ilab, users can easily interact with the models, understand their behavior, and      │
-│ fine-tune them for specific use cases.                                                                                                                                                                                  │
-╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 8.823 seconds ─╯
->>> how can I train an LLM using ilab?                                                                                                                                                                         [S][default]
-╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
-│ To train an LLM using Ilab, you need to follow these steps:                                                                                                                                                             │
-│                                                                                                                                                                                                                         │
-│ 1. Download a pre-trained LLM from Hugging Face or any other source supported by Ilab.                                                                                                                                  │
-│ 2. Generate synthetic training data based on the changes in your local taxonomy repository.                                                                                                                             │
-│ 3. Add new knowledge and skills to the pre-trained LLM by adding information to the companion taxonomy repository.                                                                                                      │
-│ 4. Retrain the LLM with the newly generated training data.                                                                                                                                                              │
-│ 5. Chatting with the re-trained LLM to view the results of the conversation.                                                                                                                                            │
-│ 6. Save the conversation for future reference and analysis.                                                                                                                                                             │
-│                                                                                                                                                                                                                         │
-│ These steps provide a simple yet effective way to train an LLM using Ilab. By following these instructions, users can ensure that they are optimizing their training process and getting the most out of their          │
-│ pre-trained models.                                                                                                                                                                                                     │
-╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 7.446 seconds ─╯
->>> how does instructlab generate new synthetic data?                                                                                                                                                          [S][default]
-╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
-│ InstructLab generates new synthetic data by first creating a counterfactual version of the original data using its built-in alignment model. The counterfactual data is then used as input to the companion taxonomy    │
-│ repository, which contains the additional knowledge and skills that you want to teach the LLM. After generating the new training data, InstructLab can retrain the LLM with the newly generated data, allowing it to    │
-│ better understand and respond to the changes in the local taxonomy repository.                                                                                                                                          │
-╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 4.086 seconds ─╯
->>> how is instructlab different to other tools?                                                                                                                                                               [S][default]
-
-╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
-│ InstructLab is different from other tools because it provides a unique and easy-to-use interface for training and fine-tuning pre-trained LLMs. Unlike traditional tools that require users to have extensive knowledge │
-│ of the underlying algorithms and systems, InstructLab allows users to interact with LLMs at a higher level. This makes it an ideal tool for users who want to experiment with different models and understand their     │
-│ capabilities without having to delve deep into the intricacies of the training process.                                                                                                                                 │
-╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 4.227 seconds ─╯
 >>> how do I install instructlab?                                                                                                                                                                              [S][default]
 ╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
 │ To install InstructLab, you need to follow these steps:                                                                                                                                                                 │
@@ -208,11 +235,10 @@ Questions against new merlinite-7b retrained model:
 │ These steps provide a simple yet effective way to install InstructLab on your system. By following these instructions, users can ensure that they are setting up their environment correctly and that they will be able │
 │ to take full advantage of all the features that InstructLab has to offer.                                                                                                                                               │
 ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 8.450 seconds ─╯
->>> when was instructlab released?                                                                                                                                                                             [S][default]
-╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
-│ InstructLab is a versatile and powerful tool for synthetic data generation, and it was first released on September 6, 2023. This release allows users to create synthetic training data that is more representative of  │
-│ the population than the original data.                                                                                                                                                                                  │
-╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 2.176 seconds ─╯
->>> exit                                                                                                                                                                                                       [S][default]
+
+
+
+
+
 
 
