@@ -191,7 +191,6 @@ Questions against original merlinite-7b-lab-Q4_K_M.gguf model, and then against 
 
 
 >>> how is instructlab different to other tools?                                                                                                                                                               [S][default]
-
 ╭───────────────────────────────────────────────────────────────────────────────── models/instructlab-merlinite-7b-lab-Q4_K_M_CATA.gguf ──────────────────────────────────────────────────────────────────────────────────╮
 │ InstructLab is different from other tools because it provides a unique and easy-to-use interface for training and fine-tuning pre-trained LLMs. Unlike traditional tools that require users to have extensive knowledge │
 │ of the underlying algorithms and systems, InstructLab allows users to interact with LLMs at a higher level. This makes it an ideal tool for users who want to experiment with different models and understand their     │
