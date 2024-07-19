@@ -17,4 +17,5 @@ Regarding the taxonomy, the questions/answers pairs were added to this folder: /
 
 Deliverables folder: https://github.com/actisdato/instructlab
 
-Link to Taxonomy: https://github.com/instructlab/taxonomy/tree/main/knowledge/STEM/Technology
+Link to Taxonomy pull request: https://github.com/instructlab/taxonomy/pull/1246
+
